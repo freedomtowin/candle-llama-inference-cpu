@@ -42,7 +42,7 @@ enum Which {
 const EOS_TOKEN: &str = "";
 const DEFAULT_PROMPT: &str = "My favorite theorem is ";
 const CPU: bool = false;
-const TEMPERATURE: f64 = 0.8;
+const TEMPERATURE: f64 = 0.1;
 const TOP_P: Option<f64> = None;
 const TOP_K: Option<usize> = None;
 const SEED: u64 = 299792458;
